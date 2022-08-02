@@ -9,5 +9,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\jenith.silviya\\Downloa
 driver=new ChromeDriver();
 driver.get("https://mobileworld.azurewebsites.net/");
 driver.manage().window().maximize();
+
+
 }
 }
