@@ -12,7 +12,7 @@ public class launch
 WebDriver driver;
    public void Lanching_the_Browser()
 {
-//System.setProperty("webdriver.chrome.driver","C:\\Users\\jenith.silviya\\Downloads\\chromedriver_win32\\chromedriver.exe");
+  System.setProperty("webdriver.chrome.driver","C:\\Users\\jenith.silviya\\Downloads\\chromedriver_win32\\chromedriver.exe");
   WebDriverManager.chromedriver().setup();
    driver=new ChromeDriver();
    driver.get("https://mobileworld.azurewebsites.net/");
