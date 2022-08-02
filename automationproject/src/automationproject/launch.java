@@ -1,12 +1,17 @@
 package automationproject;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 public class launch
 {
-WebDriver driver;
-@Test public void Launching_the Browser()
+
+@Test 
+public void Launching_the Browser()
 {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\jenith.silviya\\Downloads\\chromedriver_win32\\chromedriver.exe");
-driver=new ChromeDriver();
+WebDriver driver=new ChromeDriver();
 driver.get("https://mobileworld.azurewebsites.net/");
 driver.manage().window().maximize();
 
