@@ -8,7 +8,7 @@ public class launch
 {
 
 @Test 
-public void Launching_the Browser()
+public void launch
 {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\jenith.silviya\\Downloads\\chromedriver_win32\\chromedriver.exe");
 WebDriver driver=new ChromeDriver();
